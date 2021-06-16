@@ -1,0 +1,23 @@
+.dropbtn {
+  padding: 8px;
+  font-size: 20px;
+  border: none;
+  color: black;
+  display: inline;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
